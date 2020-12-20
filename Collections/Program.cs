@@ -23,16 +23,7 @@ namespace Collections
 
     }
 
-    public class CatModel
-    {
-        //private Guid _id;
-        public Guid Id 
-        {
-            get { return Guid.NewGuid(); }
-        }
-        public string Name {get;set;}
-        public int Year {get;set;}
-    }
+    
 
     class Program
     {
@@ -40,7 +31,6 @@ namespace Collections
         {
 
             string  texto = "'Egypt, Arab Rep.',EGY,Africa,97553151";
-            //string[] partes  = texto.Split(',');
             string[] partes  = texto.Split(new char[]{','});
             Console.WriteLine(partes.Length);
 
@@ -58,6 +48,9 @@ namespace Collections
             var valorGato = listaGato.Find(x=>x.Name == "Cat2");
         
             System.Console.WriteLine(valorGato.Id);
+
+            //Ejercicio de permutación
+            
 
  
             
