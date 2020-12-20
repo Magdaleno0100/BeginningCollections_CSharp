@@ -23,18 +23,11 @@ namespace Collections
 
     }
 
-    public class TopTenPops
-    {
-        string filePath = @"";
-   
-    }
-
     public class CatModel
     {
         //private Guid _id;
         public Guid Id 
         {
-            //set { _id = value; }
             get { return Guid.NewGuid(); }
         }
         public string Name {get;set;}
