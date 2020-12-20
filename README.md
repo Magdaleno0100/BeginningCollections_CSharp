@@ -1,6 +1,6 @@
 # Collections 
 
-En este repo, subiré algunos ejemplos del curso de "Beginning C# Collections"
+En este repo subiré algunos ejemplos del curso de "Beginning C# Collections"
 
 ### Notas y elementos clave
 
